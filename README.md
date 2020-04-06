@@ -28,8 +28,8 @@ Install
 
 **Brainfuck Psiphon Pro Go**
 
-    $ go get -v -u github.com/Anggabaonks/brainfuck-psiphon-pro-go
-    $ cd ~/go/src/github.com/Anggabaonks/brainfuck-psiphon-pro-go
+    $ go get -v -u github.com/Anggabaonks/popon-go
+    $ cd ~/go/src/github.com/Anggabaonks/popon-go
     $ go build -ldflags "-s -w"
     $ GOOS=linux GOARCH=arm64 go build -ldflags "-s -w"
     $ GOOS=linux GOARCH=arm GOARM=7 go build -ldflags="-s -w"

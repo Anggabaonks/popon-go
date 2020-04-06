@@ -8,12 +8,12 @@ import (
 	"strings"
 	"runtime"
 
-	"github.com/aztecrabbit/liblog"
-	"github.com/aztecrabbit/libutils"
-	"github.com/aztecrabbit/libinject"
-	"github.com/aztecrabbit/libredsocks"
-	"github.com/aztecrabbit/libproxyrotator"
-	"github.com/aztecrabbit/brainfuck-psiphon-pro-go/src/libpsiphon"
+	"github.com/Anggabaonks/liblog"
+	"github.com/Anggabaonks/libutils"
+	"github.com/Anggabaonks/libinject"
+	"github.com/Anggabaonks/libredsocks"
+	"github.com/Anggabaonks/libproxyrotator"
+	"github.com/Anggabaonks/popon-go/src/libpsiphon"
 )
 
 const (
@@ -22,7 +22,7 @@ const (
 	appVersionCode = "1.3.200205"
 
 	copyrightYear = "2020"
-	copyrightAuthor = "Aztec Rabbit"
+	copyrightAuthor = "Angga Baonks"
 )
 
 var (

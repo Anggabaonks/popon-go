@@ -28,15 +28,19 @@ Install
 
 **Brainfuck Psiphon Pro Go**
 
-    $ go get -v -u github.com/aztecrabbit/brainfuck-psiphon-pro-go
-    $ cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
+    $ go get -v -u github.com/Anggabaonks/brainfuck-psiphon-pro-go
+    $ cd ~/go/src/github.com/Anggabaonks/brainfuck-psiphon-pro-go
     $ go build -ldflags "-s -w"
-
+    $ GOOS=linux GOARCH=arm64 go build -ldflags "-s -w"
+    $ GOOS=linux GOARCH=arm GOARM=7 go build -ldflags="-s -w"
+    $ GOOS=windows GOARCH=amd64 go build -ldflags "-s -w"
+    
+    
 **Psiphon Tunnel Core**
 
     $ go get -v -u github.com/Psiphon-Labs/psiphon-tunnel-core/ConsoleClient
     $ cd ~/go/src/github.com/Psiphon-Labs/psiphon-tunnel-core/ConsoleClient
-    $ go build -ldflags "-s -w" -o ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go/psiphon-tunnel-core
+    $ go build -ldflags "-s -w" -o ~/go/src/github.com/Anggabaonks/popon-go/psiphon-tunnel-core
 
 
 Usage
@@ -44,15 +48,15 @@ Usage
 
 **Linux**
 
-    $ cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
+    $ cd ~/go/src/github.com/Anggabaonks/popon-go
     $ sudo --preserve-env -s
-    # ./brainfuck-psiphon-pro-go
+    # ./popon-go
 
 
 **Android (Termux)**
 
-    $ cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
-    $ ./brainfuck-psiphon-pro-go
+    $ cd ~/go/src/github.com/Anggabaonks/popon-go
+    $ ./popon-go
 
 <!-- -->
 
@@ -64,7 +68,7 @@ Configurations
 --------------
 
 Run `./brainfuck-psiphon-pro-go` first to export all default settings.
-Config will generated to `config.json` where brainfuck-psiphon-pro-go binary file are executed.
+Config will generated to `config.json` popon-go binary file are executed.
 
 
 ### Pro Version
